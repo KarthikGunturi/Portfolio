@@ -8,7 +8,7 @@ import java.util.Map;
 @Controller
 public class PortfolioController {
 
-    @GetMapping("/home")
+    @GetMapping("/")
     public String home() {
         return "home";
     }
